@@ -4,19 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>HTML Cheatsheet</title>
+    <title>Component Library</title>
+    
+    <link href="styles.css" rel="stylesheet"/>
 </head>
+
 <body>
-    <h1>HTML Basics</h1>
+    <h1>Here is the component library.</h1>
     <p>You'll find everything here, for the quick touch-up that you need. :)</p>
     <hr>
     
     <h3>Here's how and where to use containers:</h3>
-    <div>Look at a fluid container.</div>
-    <div>Look at a center container.</div>
+    <div class="container-fluid">Look at a fluid container.</div>
+    <div class="container">Look at a center container. Do you see it? Cus I do not.</div>
     
     <h3>Here's how to use links:</h3>
-    <a href="https://motherfuckingwebsite.com">Take the best example.</a>
+    <a class="link link-primary" href="https://motherfuckingwebsite.com">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <h3>Here's how to make lists:</h3>
+    <h4>Unordered list:</h4>
+    <ul class="list-non-bullet">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <h4>Unordered inline list:</h4>
+    <ul class="list-non-bullet">
+        <li class="list-inline">One</li>
+        <li class="list-inline">Two</li>
+        <li class="list-inline">Three</li>
+        
+    </ul>
+    <h4>Reverse order list:</h4>
+    <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+    <h3>Here's nav:</h3>
+    <nav class="navigation container-fluid">
+        <div class="nav-brand"><strong>iAmBrand</strong></div>
+        <ul class="list-non-bullet nav-pills">
+            <li class=list-inline>
+                <a class="link" href="/">home</a>
+            </li>
+            <li class=list-inline>
+                <a class= "link" href="/">about</a>
+            </li>
+            <li class=list-inline>
+                <a class= "link" href="/">products</a>
+            </li>
+        </ul>
+    </nav>
+    <h3>Header</h3>
+    <header class="hero"> 
+        <img class="hero-img" src="images/newimage.svg"/>
+        <h2 class="hero-head">Heading inside header</h2>
+        
+    </header>
+    <hr>
+    <h3>Sections:</h3>
+    <section class="section">
+        <div class=container>
+            <h3>white section</h3>
+            <p>This is an white section man, chill.</p>
+
+        </div>
+        
+   
+    </section>
+    <section class="section ow">
+        <div class=container>
+            <h3>offwhite section</h3>
+            <p>This is an offwhite section man, chill. </p>
+
+        </div>
+        
+    </section>
+    <hr>
+    <footer class="footer">
+        <div class="footer-header">some small heading</div>
+        <ul class="list-non-bullet">
+            <li class="list-inline">
+                <a class="link" href="/">Facebook</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/">Instagram</a>
+            </li>
+        </li>
+        <li class="list-inline">
+            <a class="link" href="/">Gmail</a>
+        </li>
+        </ul>
+    </footer>
+
     
 </body>
 </html>
