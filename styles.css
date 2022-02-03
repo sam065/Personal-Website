@@ -8,6 +8,7 @@
 body{ 
     font-family: 'Open Sans', sans-serif;
     color:#475569;
+    margin: 0px;
 }
 hr{
     margin: 2rem 0rem;
@@ -51,6 +52,7 @@ hr{
     border-radius: 0.5rem;
     color:white;
     padding: 1rem;
+    
 
 }
 .navigation .nav-brand{
@@ -81,8 +83,11 @@ hr{
 
 }
 .section h3{
-    text-align: center;
+    text-align: left;
     
+}
+.section div{
+    padding: 0.5rem;
 }
 .ow{
     background-color:#f1f5f9;
@@ -99,4 +104,8 @@ hr{
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
 }
