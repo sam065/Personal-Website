@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 :root{
-    --primary-color: #fca5a5;
+    --primary-color: #f39898;
     --dark-gray:rgb(163, 161, 161);
 
 }
@@ -78,6 +78,9 @@ hr{
     color: var(--dark-gray);
     text-align: center
 }
+.hero .heading-inverted{
+    color: var(--primary-color);
+}
 .section{
     padding: 2rem;
 
@@ -108,4 +111,14 @@ hr{
 .footer .footer-header{
     font-size: large;
     font-weight: bold;
+}
+.linkactive{ 
+    font-weight: bold;
+    color: red;
+}
+.about-img{ 
+    max-width: 300px;
+    display:block;
+    margin:auto;
+    padding: 5rem;
 }
