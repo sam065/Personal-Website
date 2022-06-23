@@ -159,6 +159,13 @@ nav .fa{
     flex-direction: column;
 }
 
+.about-img{
+    max-width: 300px;
+    display:block;
+    margin:auto;
+    padding: 0;
+}
+
 }
 .row
 { 
@@ -193,28 +200,13 @@ h4{
     cursor: pointer;
     padding: 18px 0;
 }
-.about-me{ 
-padding: 0.5rem;
-text-align: left;
-margin-top: 100px;
-margin : auto;
-padding-left: 200px;
 
-}
-.about-me h2{ 
+.text-box h2{ 
     font-size: 30px;
     color: var(--primary-color);
     padding-bottom: 50px
 }
-.about-me p{ 
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(155, 171, 171);
 
-margin: 10px 0 40px;
-font-size: 15px;
-
-}
 .hero-head{ 
     text-align: center;
 }
@@ -227,12 +219,13 @@ font-size: 15px;
 
 .project{ 
         flex-basis: 31%;
-        background-color: #b0edfa;
+        background-color: #ffffff;
         border-radius: 10px;
         margin-bottom: 5%;
         padding: 20px 12px; 
         box-sizing: border-box;
         border-radius: 10px;
+        border: 1px solid rgb(17, 192, 241);
         cursor: pointer;
         transition: 0.5s;
         
@@ -251,5 +244,12 @@ font-size: 15px;
         box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     
     }
+    .link{
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        font-size: medium;
+    color:var(--primary-color);
+    border-radius:0.5rem;
+   
+    }
     
-
